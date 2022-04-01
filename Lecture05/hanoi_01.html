@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hanoi</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        .div1{margin: 10px;}
+        button{margin-top: 10px;}
+
+        .div2_1{width: 300px; height: 500px; float: left; margin-left: 80px;}
+        .first{border: 3px solid red;}
+        .second{border: 3px solid green;}
+        .third{border: 3px solid blue;}
+        .div2_2{text-align: center;}
+
+        .floor{text-align: center; margin-top: 10px;}
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div>하노이의 탑</div>
+        <button>초기화</button>
+    </div>
+    <div class="div2">
+
+        <div class="div2_1 first">
+            <div class="floor floor01">
+                <div class="red">🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥</div>
+            </div>
+            <div class="floor floor02">
+                <div class="yellow">🟨🟨🟨🟨🟨🟨🟨🟨🟨</div>
+            </div>
+            <div class="floor floor03">
+                <div class="green">🟩🟩🟩🟩🟩🟩🟩</div>
+            </div>
+            <div class="floor floor04">
+                <div class="blue">🟦🟦🟦🟦🟦</div>
+            </div>
+            <div class="floor floor05">
+                <div class="purple">🟪🟪🟪</div>
+            </div>
+            <div class="floor floor06">
+                <div class="black">⬛️</div>
+            </div>
+        </div>
+        
+        <div class="div2_1 second">
+            <div class="div2_2">second</div>
+        </div>
+
+        <div class="div2_1 third"></div>
+    </div>
+</body>
+</html>
