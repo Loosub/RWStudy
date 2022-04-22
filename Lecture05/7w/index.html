@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Hint</title>
+    <script src="Hanoi.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+    <p> 하노이의 탑 </p>
+    <form id="form_box" method="get" action="form-action.html">
+        <!-- <label><input id="radio_toRight" type="radio" name="hanoi"></label> -->
+        <!-- <label><input id="radio_toLeft" type="radio" name="hanoi"></label> -->
+
+        <!-- <input id="button_submit" type="button" value="Move" onclick="Move();"> -->
+        <input id="button_reset" type="button" value="초기화" onclick="Init();">
+    </form>
+    <div class="parent">
+        <div class="area" id="firstArea" onclick="firstAreaClick()">first
+            <div id= "first_f1"></div>
+            <div id= "first_f2"></div>
+            <div id= "first_f3"></div>
+            <div id= "first_f4"></div>
+            <div id= "first_f5"></div>
+            <div id= "first_f6"></div>
+        </div>
+        <div class="area" id="secondArea" onclick="secondAreaClick()">second
+            <div id= "second_f1"></div>
+            <div id= "second_f2"></div>
+            <div id= "second_f3"></div>
+            <div id= "second_f4"></div>
+            <div id= "second_f5"></div>
+            <div id= "second_f6"></div>
+        </div>
+        <div class="area" id="thirdArea" onclick="thirdAreaClick()">third
+            <div id= "third_f1"></div>
+            <div id= "third_f2"></div>
+            <div id= "third_f3"></div>
+            <div id= "third_f4"></div>
+            <div id= "third_f5"></div>
+            <div id= "third_f6"></div>
+        </div>
+    </div>
+</body>
+</html>

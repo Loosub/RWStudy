@@ -1,0 +1,25 @@
+.area {
+    width: 300px;
+    height: 500px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px; 
+    text-align: center;
+}
+
+#firstArea {
+    border:1px solid red;
+}
+
+#secondArea {
+    border: 1px solid green;
+}
+
+#thirdArea {
+    border: 1px solid blue;
+}
+
+#f1 #f2 #f3 #f4 #f5 #f6 {
+    display: none;
+    width: 300px;
+}

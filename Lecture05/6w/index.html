@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Hint</title>
+    <script src="Hanoi.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+    <p> 하노이의 탑 </p>
+    <form id="form_box" method="get" action="form-action.html">
+        <!-- <label><input id="radio_toRight" type="radio" name="hanoi"></label> -->
+        <!-- <label><input id="radio_toLeft" type="radio" name="hanoi"></label> -->
+
+            <!-- <input id="button_submit" type="button" value="Move" onclick="Move();"> -->
+            <input id="button_reset" type="button" value="초기화" onclick="Init();">
+    </form>
+    <div class="parent">
+        <div class="first">first
+            <div class="floor floor01" id= "red" ><div>🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥</div></div>
+            <div class="floor floor02" id= "yellow" > <div>🟨🟨🟨🟨🟨🟨🟨🟨🟨</div></div>
+            <div class="floor floor03" id= "green" ><div>🟩🟩🟩🟩🟩🟩🟩</div></div>
+            <div class="floor floor04" id= "blue" ><div>🟦🟦🟦🟦🟦</div></div>
+            <div class="floor floor05" id= "purple" ><div>🟪🟪🟪</div></div>
+            <div class="floor floor06" id= "black" ><div>⬛️</div></div>
+        </div>
+        <div class="second">second</div>
+        <div class="third">third</div>
+    </div>
+</body>
+</html>
+
