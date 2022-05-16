@@ -1,0 +1,37 @@
+.parent {
+    font-size:2px;
+  }
+#first {
+    width:180px;
+    height:300px; 
+    float:left; 
+    margin:20px; 
+    border:solid red; 
+    border-width:1px; 
+    text-align:center;
+    line-height:10em;
+    padding:5px;
+  }
+  
+#second {
+    width:180px;
+    height:300px; 
+    float:left; 
+    margin:20px; 
+    border:solid green; 
+    border-width:1px; 
+    text-align:center;
+    line-height:10em;
+    padding:5px;
+  }
+#third {
+    width:180px;
+    height:300px; 
+    float:left; 
+    margin:20px; 
+    border:solid blue; 
+    border-width:1px; 
+    text-align:center;
+    line-height:10em;
+    padding:5px;
+  }
